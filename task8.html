@@ -1,16 +1,27 @@
-<!DOCTYPE html>
 <html>
 
 <head>
   <style>
     button {
       position: relative;
-      left: 720px;
+      left: 730px;
       top: 20px;
     }
 
     table {
-      margin: 0 35% 0;
+      margin: 0 30% 0;
+      width: 40%;
+      height: 500px;
+    }
+
+    td {
+      padding: 0;
+    }
+
+    .in {
+      margin: 0;
+      width: 98.5%;
+      height: 80.5%;
     }
   </style>
   <center>
@@ -21,26 +32,26 @@
 </head>
 
 <body>
-  <table border="1" cellpadding="5px">
+  <table border="1" cellspacing="0px">
     <tr>
       <td align="center">First name:</td>
-      <td class="style1"><input type="text" name="first name" /></td>
+      <td class="style1"><input class="in" type="text" name="first name" /></td>
     </tr>
     <tr>
       <td align="center">Last name:</td>
-      <td class="style1"><input type="text" name="last name" /></td>
+      <td class="style1"><input class="in" type="text" name="last name" /></td>
     </tr>
     <tr>
       <td align="center">Email:</td>
-      <td class="style1"><input type="text" name="email" /></td>
+      <td class="style1"><input class="in" type="text" name="email" /></td>
     </tr>
     <tr>
       <td align="center">Password:</td>
-      <td class="style1"><input type="password" name="password" /></td>
+      <td class="style1"><input class="in" type="password" name="password" /></td>
     </tr>
     <tr>
       <td align="center">Re-enter Password:</td>
-      <td class="style1"><input type="password" name="repassword" /></td>
+      <td class="style1"><input class="in" type="password" name="repassword" /></td>
     </tr>
     <tr>
       <td rowspan="2" align="center">Gender:</td>
@@ -52,19 +63,19 @@
     </tr>
     <tr>
       <td align="center">Age:</td>
-      <td class="style1"><input type="number" name="age" /></td>
+      <td class="style1"><input class="in" type="number" name="age" /></td>
     </tr>
     <tr>
       <td align="center">Phone Number:</td>
-      <td class="style1"><input type="tel" name="phone" pattern="[9]{1}-[0-9]{9}" /></td>
+      <td class="style1"><input class="in" type="tel" name="phone" pattern="[9]{1}-[0-9]{9}" /></td>
     </tr>
     <tr>
       <td align="center">Address:</td>
-      <td><textarea rows="5" cols="25" name="address"></textarea></td>
+      <td><textarea style="width:99%;height:90%;" rows="5" cols="55" name="address"></textarea></td>
     </tr>
     <tr>
       <td align="center">State:</td>
-      <td class="style1"><input type="text" name="state" /></td>
+      <td class="style1"><input class="in" type="text" name="state" /></td>
     </tr>
     <tr>
       <td align="center">Country:</td>
